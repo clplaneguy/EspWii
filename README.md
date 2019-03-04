@@ -1,7 +1,7 @@
 # EspWii
 A framework for controlling one ESP from another using various Wii accessories. 
 
-This library is for hosting an i2c Wii accessory device, supported by  [WiiChuck](https://github.com/madhephaestus/WiiChuck), as a UDP server. There is also a client in the library for connecting to that server. It lets you plug any Wii accessoryinto one ESP32, then use that accessory on a different ESP32 over the infrastructure WIFI. 
+This library is for hosting an i2c Wii accessory device, supported by  [WiiChuck](https://github.com/madhephaestus/WiiChuck), as a UDP server. There is also a client in the library for connecting to that server. It lets you plug any Wii accessory into one ESP32, then use that accessory on a different ESP32 over the infrastructure WIFI. 
 
 # Depenencies
 In the Arduino Library Manager, search for and install:
@@ -35,7 +35,7 @@ https://github.com/madhephaestus/Esp32SimplePacketComs/blob/master/README.md
 
 This checks the device to see if the name of the device matched a given name. If the name matches a packet is returned with the device name in its contents. If the name does not match, no packet is returned. 
 
-If the name requests ends with a \* charrecter then it wil be treated as a wildcard. Matches up to the \* will be returned. Name requests with just \* will always return the name of the device. 
+If the name request ends with a \* character, then it will be treated as a wildcard. Matches up to the \* will be returned. Name requests with just \* will always return the name of the device. 
 
 ## Game Controller
 
